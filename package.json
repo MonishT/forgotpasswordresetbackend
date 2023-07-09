@@ -1,0 +1,22 @@
+{
+  "name": "forgotpasswordresetbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Monish Tata",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "crypto-random-string": "^5.0.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^5.7.0",
+    "nodemailer": "^6.9.3"
+  }
+}
