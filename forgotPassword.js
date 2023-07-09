@@ -40,7 +40,7 @@ forgotRouter.post('/forgotPassword', async (req, res) => {
             from: 'monish23don@gmail.com',
             to: email,
             subject: 'Password Reset',
-            text: `Click the following link to reset your password: http://localhost:3000/resetPassword/${resetToken}`,
+            text: `Click the following link to reset your password: https://forgotpasswordbackend-k0eg.onrender.com/resetPassword/${resetToken}`,
         };
 
         transporter.sendMail(mailOptions, (error, info) => {
